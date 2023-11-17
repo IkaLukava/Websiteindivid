@@ -475,6 +475,7 @@ select option{
     align-items: center;
     justify-content:space-between ;
     padding: 10px 0;
+    z-index: 10;
 }
 .logo2{
     width: 160px;
