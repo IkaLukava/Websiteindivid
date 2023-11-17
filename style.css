@@ -196,7 +196,7 @@ nav ul li a{
 }
 
 .page-footer3{
-    width: 100vw;
+    width: 99.3vw;
     height: 5rem; 
     background: black;
     display: flex;
@@ -379,7 +379,7 @@ select option{
 }
 
 .page-footer4{
-    width: 100vw;
+    width: 99.3vw;
     height: 5rem; 
     background: black;
     display: flex;
@@ -400,4 +400,158 @@ select option{
 }
 
 /* developing style2// */
+
+.container2{
+    width: 100%;
+    min-height: 120vh;
+    background-image: linear-gradient(rgba(9,0,77,0.65),rgba(9,0,77,0.65)),url(images/astronomy.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+}
+.nav2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    padding: 10px 0;
+}
+.logo2{
+    transform: translateY(100px);
+    width: 230px;
+    cursor: pointer;
+}
+.nav2 ul{
+    color: white;
+    list-style: none;
+    width: 100%;
+    text-align: right;
+    padding-right: 60px;
+}
+.nav2 ul li{
+    display: inline-block;
+    margin: 10px 20px;
+}
+.nav2 ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.btn2{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    background: rgba(63, 63, 214, 0.459);
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.btn2 img{
+    width: 50px;
+    margin-right:10px ;
+}
+
+.web-dev{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 37vw;
+    height: 700px;
+    /* border: 3px solid black; */
+    border-radius: 20px;
+    font-size: 20px;
+    color:chocolate;
+    position: absolute;
+    left: 400px;
+    backdrop-filter: blur(2px);
+    box-shadow: 0 0 20px black;
+}
+.dev{
+    border-top: 1px solid #64748b;
+    width: 500px;
+    height: 300px;
+    transform: translateY(30px);
+}
+.web-dev h1{
+    color: #fff;  
+}
+.web-dev p{
+    border-top: 1px solid #64748b; 
+}
+.web-dev li{
+    display: flex;
+}   
+.image{
+    position: absolute;
+    top: 200px;
+    right: 200px;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    right: 0px;
+}
+.list img{
+    top: 100px;
+    right: 20px;
+    padding: 0px;
+}
+
+.list  h1{
+    width: 350px;
+    height:10px;
+    /* border: 1px solid black; */
+    color: #fff;
+}
+
+.list ul{
+    transform: translateY(450px)translateX(550px);
+    backdrop-filter: blur(1px);
+    border-radius: 40px;
+    /* list-style-type: square; */
+    /* text-align: center; */
+    line-height: 2.6;
+}
+.list ul ::marker{
+    color:rgb(0, 238, 255);
+    font-family: fantasy;
+    font-size: 20px;
+    content: "axplane: ";
+}
+.list li{
+    font-size: 20px;
+}
+.list h1{
+    font-size: 25px;
+}
+.lineup{
+    border-top: 2px solid #64748b;
+    transform: translateY(500px);
+}
+.lineup2{
+    border-top: 2px solid #64748b;
+    transform: translateY(600px);
+}
+
+.page-footer2{
+    width: 99.3vw;
+    height: 5rem; 
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    transform: translateX(-155px)translateY(666px);
+}
+.page-footer2 p{
+    margin-bottom: 0;
+}
+
 
