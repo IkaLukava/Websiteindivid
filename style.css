@@ -23,9 +23,10 @@ nav{
     z-index: 222;
 }
 .logo{
-    width: 130px;
+    width: 160px;
     cursor: pointer;
     border-radius: 15px;
+    transform: translateY(2px);
 }
 .logo:hover{
     border: 1px solid #64748b;
@@ -65,8 +66,8 @@ nav ul li a{
 }
 
 .btn img{
-    width: 50px;
-    margin-right:10px ;
+    width: 55px;
+    margin-right:15px ;
 }
 .content{
     margin-top: 14%;
@@ -91,7 +92,7 @@ nav ul li a{
     width: 40vw;
 }
 .page-footer{
-    width: 100vw;
+    width: 99.3vw;
     height: 5rem; 
     background: black;
     display: flex;
@@ -102,6 +103,7 @@ nav ul li a{
 }
 .page-footer p{
     margin-bottom: 0;
+    word-spacing: 2px;
 }
 
 .fa-brands{
@@ -112,6 +114,15 @@ nav ul li a{
 }
 .fa-brands{
     letter-spacing: 8px;
+}
+.fb{
+    color: blue;
+}
+.insta{
+    color: rgb(194, 22, 171);
+}
+.x{
+    color:#333
 }
 
 
@@ -138,9 +149,10 @@ nav ul li a{
 }
 
 .logo3{
-    width: 130px;
+    width: 160px;
     cursor: pointer;
     border-radius: 15px;
+    transform: translateY(2px);
 }
 .logo3:hover{
     border: 1px solid #64748b;
@@ -176,8 +188,8 @@ nav ul li a{
 }
 
 .btn3 img{
-    width: 50px;
-    margin-right:10px ;
+    width: 55px;
+    margin-right:15px ;
 }
 /* .coding{
     transform: translateX(500px);
@@ -236,6 +248,7 @@ nav ul li a{
     justify-content: center;
     color: white;
     transform: translateX(-155px)translateY(473px);
+    word-spacing: 5px;
 }
 .page-footer3 p{
     margin-bottom: 0;
@@ -270,9 +283,10 @@ nav ul li a{
     top:0;
 }
 .logo4{
-    width: 130px;
+    width: 160px;
     cursor: pointer;
     border-radius: 15px;
+    transform: translateY(2px);
 }
 .logo4:hover{
     border: 1px solid #64748b;
@@ -307,8 +321,8 @@ nav ul li a{
 }
 
 .btn4 img{
-    width: 50px;
-    margin-right:10px ;
+    width: 55px;
+    margin-right:15px ;
 }
 .wrapper4{
     display: flex;
@@ -432,6 +446,7 @@ select option{
 }
 .page-footer4 p{
     margin-bottom: 0;
+    word-spacing: 5px;
 }
 
 .fa-brands{
@@ -462,9 +477,10 @@ select option{
     padding: 10px 0;
 }
 .logo2{
-    width: 130px;
+    width: 160px;
     cursor: pointer;
     border-radius: 15px;
+    transform: translateY(2px);
 }
 .logo2:hover{
     border: 1px solid #64748b;
@@ -499,8 +515,8 @@ select option{
 }
 
 .btn2 img{
-    width: 50px;
-    margin-right:10px ;
+    width: 55px;
+    margin-right:15px ;
 }
 
 .web-dev{
@@ -521,6 +537,7 @@ select option{
     backdrop-filter: blur(2px);
     box-shadow: 0 0 20px black;
     padding: 30px;
+    z-index: 999;
 }
 .web-dev a {
     color: red;
@@ -607,6 +624,7 @@ select option{
 }
 .page-footer2 p{
     margin-bottom: 0;
+    word-spacing: 5px;
 }
 .fa-brands{
     letter-spacing: 8px;
@@ -633,8 +651,10 @@ select option{
     z-index: 222;
 }
 .logo1{
-    width: 230px;
+    width: 160px;
     cursor: pointer;
+    border-radius: 15px;
+    transform: translateY(2px);
 }
 .logo1:hover{
     border: 1px solid #64748b;
@@ -669,8 +689,8 @@ select option{
 }
 
 .btn1 img{
-    width: 50px;
-    margin-right:10px ;
+    width: 55px;
+    margin-right:15px ;
 }
 .computer-science{
     display: flex;
@@ -707,6 +727,7 @@ select option{
 /* aqana chavdgam stenkas */
 .page-footer1 p{
     margin-bottom: 0;
+    word-spacing: 5px;
 }
 .fa-brands{
     letter-spacing: 8px;
