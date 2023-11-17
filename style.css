@@ -18,11 +18,14 @@ nav{
     align-items: center;
     justify-content:space-between ;
     padding: 10px 0;
+    position: sticky;
+    top:0;
+    z-index: 222;
 }
 .logo{
-    transform: translateY(100px);
-    width: 230px;
+    width: 150px;
     cursor: pointer;
+    border-radius: 20px;
 }
 nav ul{
     color: white;
@@ -97,6 +100,9 @@ nav ul li a{
 .fa-sharp{
     font-size: 20px;
 }
+.fa-brands{
+    letter-spacing: 8px;
+}
 
 /* style3 coding() */
 
@@ -116,9 +122,11 @@ nav ul li a{
     align-items: center;
     justify-content:space-between ;
     padding: 10px 0;
+    position: sticky;
+    top:0;
 }
 .logo3{
-    transform: translateY(100px);
+    /* transform: translateY(100px); */
     width: 230px;
     cursor: pointer;
 }
@@ -214,6 +222,9 @@ nav ul li a{
 .fa-sharp{
     font-size: 20px;
 }
+.fa-brands{
+    letter-spacing: 8px;
+}
 
 /* contact Us//style4 */
 
@@ -231,9 +242,11 @@ nav ul li a{
     align-items: center;
     justify-content:space-between ;
     padding: 10px 0;
+    position: sticky;
+    top:0;
 }
 .logo4{
-    transform: translateY(100px);
+    /* transform: translateY(100px); */
     width: 230px;
     cursor: pointer;
 }
@@ -398,6 +411,9 @@ select option{
 .fa-sharp{
     font-size: 20px;
 }
+.fa-brands{
+    letter-spacing: 8px;
+}
 
 /* developing style2// */
 
@@ -417,7 +433,7 @@ select option{
     padding: 10px 0;
 }
 .logo2{
-    transform: translateY(100px);
+    /* transform: translateY(100px); */
     width: 230px;
     cursor: pointer;
 }
@@ -553,5 +569,103 @@ select option{
 .page-footer2 p{
     margin-bottom: 0;
 }
+.fa-brands{
+    letter-spacing: 8px;
+}
+
+/* stylecss1//computer science */
+
+.container1{
+    width: 100%;
+    min-height: 120vh;
+    background-image: linear-gradient(rgba(9,0,77,0.65),rgba(9,0,77,0.65)),url(images/back.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+}
+.nav1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    padding: 10px 0;
+    position: sticky;
+    top:0;
+    z-index: 222;
+}
+.logo1{
+    width: 230px;
+    cursor: pointer;
+}
+.nav1 ul{
+    color: white;
+    list-style: none;
+    width: 100%;
+    text-align: right;
+    padding-right: 60px;
+}
+.nav1 ul li{
+    display: inline-block;
+    margin: 10px 20px;
+}
+.nav1 ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.btn1{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    background: rgba(63, 63, 214, 0.459);
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.btn1 img{
+    width: 50px;
+    margin-right:10px ;
+}
+.computer-science{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.computer-science h1{
+    color: white;
+    transform: translateY(-230px);
+}
+.science{
+    border-radius: 30px;
+    transform: translateY(100px);
+}
+.text1{
+    display: flex;
+    width: 400px;
+    height: 250px;
+    transform: translateY(-450px);
+    color: #fff;
+    font-size: 20px;
+}
+
+.page-footer1{
+    width: 99.3vw;
+    height: 5rem; 
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    transform: translateX(-155px)translateY(65px);
+}
+.page-footer1 p{
+    margin-bottom: 0;
+}
+.fa-brands{
+    letter-spacing: 8px;
+}
+
 
 
